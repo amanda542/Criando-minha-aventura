@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title> O Mundo de Ghranor e o Cristal da Harmonia</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você está em Ghranor, um mundo caótico de magia e mistério. Seu objetivo é encontrar o Cristal da Harmonia, que pode restaurar o equilíbrio. A cada etapa, você deve fazer uma escolha para continuar sua jornada. Você começa sua jornada no topo de uma montanha flutuante. À sua frente, há um portão enorme feito de uma substância espectral, que emana uma luz suave. Duas criaturas surgem diante de você, guardando o portão, então você tem que escolher entre:</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o dragão para o Vale das Sombras</button>
+            <button class="btn-proximo" data-proximo="2">Seguir a fênix até a Floresta Cintilante</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao seguir o dragão, você entra em um vale coberto por névoa espessa, onde sombras dançam ao seu redor. O silêncio é assustador, quebrado apenas pelo som de suas próprias pegadas. No meio do vale, você encontra dois objetos: Um espelho antigo e um livro de capa negra.</p>
+            <button class="btn-proximo" data-proximo="3">Pegar o espelho antigo</button>
+            <button class="btn-proximo" data-proximo="4">Pegar o livro de capa negra</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Seguindo a fênix, você chega a uma floresta onde as árvores emitem um brilho suave e suas folhas flutuam como se estivessem em gravidade zero. No coração da floresta, você encontra dois caminhos e deve seguir por um deles.</p>
+            <button class="btn-proximo" data-proximo="5">Ir pela ponte feita de galhos dourados</button>
+            <button class="btn-proximo" data-proximo="6">Ir pela escada de raízes</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Pegando o espelho antigo você enxerga uma antiga inscrição apontando que o cristal está
+                localizado no centro das colinas de Ghranor </p>
+            <button class="btn-proximo" data-proximo="7">Seguir para lá</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-caos.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você escolheu o objeto errado, e o caos está tomando conta de Ghranor. O Cristal da Harmonia está perto, mas quando você o toca, ele se despedaça em suas mãos. As forças do caos se libertam, espalhando destruição por todo o mundo. O dragão e a fênix aparecem uma última vez, ambos decepcionados.
+
+                "O equilíbrio foi perdido... mas talvez haja uma nova esperança no futuro. Até lá, Ghranor está destinado ao caos."</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Atravessando a ponte, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está nas colinas de Ghranor.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para lá</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Subindo as escadas de raízes você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e atravessar a ponte de galhos dourados</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Nas colinas, a busca pelo Cristal da Harmonia se intensifica. Você se depara com uma trilha bifurcada.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta à ponte, você finalmente encontra um mapa antigo que revela a localização do Cristal nas colinas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as colinas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma cachoeira escondida com símbolos antigos que revelam a presença do Cristal da Harmonia.</p>
+            <button class="btn-proximo" data-proximo="11">Pegar o Cristal</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais do Cristal
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cristal.jpeg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você finalmente encontra o Cristal da Harmonia e, ao tocá-lo, uma onda de poder restaura o equilíbrio em Ghranor. As forças caóticas se acalmam, e o mundo volta à paz. Sua missão foi cumprida, e o Cristal permanece seguro, garantindo a harmonia — por enquanto.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra a cachoeira escondida e os símbolos
+                antigos que te levam ao Cristal da Harmonia.</p>
+            <button class="btn-proximo" data-proximo="11">Pegar o Cristal</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
